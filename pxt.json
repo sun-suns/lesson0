@@ -9,7 +9,8 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "custom.ts"
+        "custom.ts",
+        "selectblocks.jres"
     ],
     "testFiles": [
         "test.ts"
