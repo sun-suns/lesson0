@@ -1,6 +1,6 @@
 
 
-enum SelectBlock {
+enum selectblocks {
     //% blockIdentity="selectblocks.block" enumval=22 block="ラピスラズリブロック"
     //% jres alias=LAPIS_LAZULI_BLOCK
     LapisLazuliBlock = 22,
@@ -207,7 +207,7 @@ namespace lesson0 {
     //% block.fieldOptions.maxRows="8"
     //% block.fieldOptions.hasSearchBar=true
     //% block.fieldOptions.hideRect=true
-    export function customBlock(block: SelectBlock): number {
+    export function customBlock(block: selectblocks): number {
         return block;
     }
 
