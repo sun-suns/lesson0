@@ -10,25 +10,25 @@ enum selectblocks {
     //% blockIdentity="selectblocks.block" enumval=42 block="鉄のブロック"
     //% jres alias=IRON_BLOCK
     IronBlock = 42,
-    //% blockIdentity="blocks.block" enumval=57 block="ダイヤモンドブロック"
+    //% blockIdentity="selectblocks.block" enumval=57 block="ダイヤモンドブロック"
     //% jres alias=DIAMOND_BLOCK
     DiamondBlock = 57,
-    //% blockIdentity="blocks.block" enumval=133 block="エメラルドブロック"
+    //% blockIdentity="selectblocks.block" enumval=133 block="エメラルドブロック"
     //% jres alias=EMERALD_BLOCK
     EmeraldBlock = 133,
-    //% blockIdentity="blocks.block" enumval=45 block="レンガブロック"
+    //% blockIdentity="selectblocks.block" enumval=45 block="レンガブロック"
     //% jres alias=BRICKS
     Bricks = 45,
-    //% blockIdentity="blocks.block" enumval=46 block="TNT"
+    //% blockIdentity="selectblocks.block" enumval=46 block="TNT"
     //% jres alias=TNT
     TNT = 46,
-    //% blockIdentity="blocks.block" enumval=81 block="サボテン"
+    //% blockIdentity="selectblocks.block" enumval=81 block="サボテン"
     //% jres alias=CACTUS
     Cactus = 81,
-    //% blockIdentity="blocks.block" enumval=86 block="カボチャ"
+    //% blockIdentity="selectblocks.block" enumval=86 block="カボチャ"
     //% jres alias=PUMPKIN
     Pumpkin = 86,
-    //% blockIdentity="blocks.block" enumval=20 block="ガラス"
+    //% blockIdentity="selectblocks.block" enumval=20 block="ガラス"
     //% jres alias=GLASS
     Glass = 20
 }
