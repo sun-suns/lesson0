@@ -85,6 +85,7 @@ namespace lesson0 {
 
     //% weight=86
     //% block="くりかえし$repeat回"
+    //% handlerStatement
     export function customRepeat(repeat: number, handler: () => void) {
         for (let index = 0; index < repeat; index++) {
 	        handler();
