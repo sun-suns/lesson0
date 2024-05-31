@@ -1,5 +1,4 @@
 
-
 enum selectblocks {
     //% blockIdentity="selectblocks.block" enumval=22 block="ラピスラズリブロック"
     //% jres alias=LAPIS_LAZULI_BLOCK
@@ -74,7 +73,8 @@ namespace lesson0 {
         return world(x, y, 0);
     }
 
+}
 
-
-
+//% deprecated=true
+namespace player {
 }
