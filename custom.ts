@@ -47,7 +47,7 @@ namespace lesson0 {
         blocks.place(block, pos);
     }
 
-    //% weight=85
+    //% weight=89
     //% blockId=customBlock
     //% block="$block"
     //% block.fieldEditor="gridpicker"
@@ -63,7 +63,7 @@ namespace lesson0 {
         return block;
     }
 
-    //% weight=80
+    //% weight=88
     //% blockId=positionXY
     //% block="たいよう：$x うえ：$y"
     //% inlineInputMode=inline
@@ -73,8 +73,24 @@ namespace lesson0 {
         return world(x, y, 0);
     }
 
+    //% weight=87
+    //% blockId=customSpawn
+    //% block="$mobをプレイヤーの位置にスポーンさせる"
+    //% mob.shadow=minecraftAnimal
+    //% mob.defl=CHICKEN
+    //% shim=mobs::spawnAsync promise
+    export function customSpawn(mob: number): void{
+        spawn(mob, pos(0, 0, 0));
+    }
+
+    //% weight=86
+    //% block="くりかえし$repeat回"
+    export function onEvent(repeat: number, handler: () => void) {
+        for (let index = 0; index < repeat; index++) {
+	        handler();
+        }
+    }
+
 }
 
-//% deprecated=true
-namespace player {
-}
+
