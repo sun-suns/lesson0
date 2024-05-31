@@ -4,6 +4,6 @@
 動物（どうぶつ）を出現（しゅつげん）させてみよう！
 ```blocks
 lesson0.customSpawn(CHICKEN)
-
-mobs.spawn(CHICKEN, pos(0, 0, 0))
+lesson0.customRepeat(0, function () { 
+})
 ```
