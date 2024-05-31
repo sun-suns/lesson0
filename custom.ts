@@ -80,7 +80,7 @@ namespace lesson0 {
     //% mob.defl=CHICKEN
     //% shim=mobs::spawnAsync promise
     export function customSpawn(mob: number): void{
-        spawn(mob, pos(0, 0, 0));
+        mobs.spawn(mob, pos(0, 0, 0));
     }
 
     //% weight=86
