@@ -5,7 +5,7 @@
 ```template
 //
 ```
-```blocks
+```ghost
 lesson0.customSpawn(CHICKEN)
 lesson0.customRepeat(0, function () { 
 })
