@@ -97,7 +97,8 @@ namespace lesson0 {
     //% blockId=teleportToNext1
     //% block="次（つぎ）の地点（ちてん）へテレポート"
     export function teleportToNext1() {
-        player.teleport(world(0, 0, 0));
+        /*player.teleport(world(-21, 0, 0));*/
+	player.execute("tp @s -21 0 0 -90 0");
     }
 
 }
