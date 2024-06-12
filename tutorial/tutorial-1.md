@@ -6,5 +6,5 @@
 //
 ```
 ```ghost
-
+lesson0.teleportToNext1()
 ```
