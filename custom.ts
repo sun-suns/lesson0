@@ -65,7 +65,7 @@ namespace lesson0 {
 
     //% weight=88
     //% blockId=positionXY
-    //% block="たいよう：$x うえ：$y"
+    //% block="よこ：$x たて：$y"
     //% inlineInputMode=inline
     //% x.defl=0
     //% y.defl=0
@@ -75,7 +75,7 @@ namespace lesson0 {
 
     //% weight=87
     //% blockId=customSpawn
-    //% block="$mobをプレイヤーの位置にスポーンさせる"
+    //% block="$mobをプレイヤーの位置(いち)にスポーンさせる"
     //% mob.shadow=minecraftAnimal
     //% mob.defl=CHICKEN
     //% shim=mobs::spawnAsync promise
@@ -84,7 +84,7 @@ namespace lesson0 {
     }
 
     //% weight=86
-    //% block="くりかえし$repeat回"
+    //% block="くりかえし$repeat回（かい）"
     //% handlerStatement
     export function customRepeat(repeat: number, handler: () => void) {
         for (let index = 0; index < repeat; index++) {
