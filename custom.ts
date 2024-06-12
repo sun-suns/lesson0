@@ -84,12 +84,20 @@ namespace lesson0 {
     }
 
     //% weight=86
+    //% blockId=customRepeat
     //% block="くりかえし$repeat回（かい）"
     //% handlerStatement
     export function customRepeat(repeat: number, handler: () => void) {
         for (let index = 0; index < repeat; index++) {
 	        handler();
         }
+    }
+
+    //% weight=85
+    //% blockId=teleportToNext1
+    //% block="次（つぎ）の地点（ちてん）へテレポート"
+    export function teleportToNext1() {
+        player.teleport(world(0, 0, 0));
     }
 
 }
