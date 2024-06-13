@@ -13,7 +13,8 @@
         "custom.ts",
         "selectblocks.jres",
         "tutorial/tutorial-1.md",
-        "tutorial/tutorial-2.md"
+        "tutorial/tutorial-2.md",
+        "tutorial/tutorial-3.md"
     ],
     "testFiles": [
         "test.ts"
