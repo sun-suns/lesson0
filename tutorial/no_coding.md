@@ -3,11 +3,10 @@
 ### @explicitHints 1
 
 
-# No code is required for this activity. 
-## Step 1
-No code is required for this activity. 
+# プログラミングすることはありません。
+## プログラミングすることはありません。
+プログラミングすることはありません。
 
 ```template
-player.onChat("run", function () {
-})
+//
 ```
