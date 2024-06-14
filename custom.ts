@@ -90,6 +90,7 @@ namespace lesson0 {
     //% blockId=customRepeat
     //% block="くりかえし$repeat回（かい）"
     //% handlerStatement
+    //% repeat.defl=1
     export function customRepeat(repeat: number, handler: () => void) {
         for (let index = 0; index < repeat; index++) {
 	        handler();
