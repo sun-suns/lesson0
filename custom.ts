@@ -21,9 +21,9 @@ enum selectblocks {
     //% blockIdentity="selectblocks.block" enumval=46 block="TNT"
     //% jres alias=TNT
     TNT = 46,
-    //% blockIdentity="selectblocks.block" enumval=81 block="サボテン"
-    //% jres alias=CACTUS
-    Cactus = 81,
+    //% blockIdentity="selectblocks.block" enumval=925 block="Cherry Planks"
+    //% jres alias=CHERRY_PLANKS
+    CherryPlanks = 925,
     //% blockIdentity="selectblocks.block" enumval=86 block="カボチャ"
     //% jres alias=PUMPKIN
     Pumpkin = 86,
