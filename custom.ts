@@ -29,7 +29,10 @@ enum selectblocks {
     Pumpkin = 86,
     //% blockIdentity="selectblocks.block" enumval=20 block="ガラス"
     //% jres alias=GLASS
-    Glass = 20
+    Glass = 20,
+    //% blockIdentity="selectblocks.block" enumval=0 block="空気"
+    //% jres alias=AIR
+    Air = 0
 }
 
 //% weight=999 color=#c71585 icon="\uf1b3"
