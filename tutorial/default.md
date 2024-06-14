@@ -7,8 +7,4 @@
 ```template
 //
 ```
-```ghost
-//% deprecated=true
-namespace lesson0 {
-}
-```
+
